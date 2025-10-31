@@ -10,26 +10,7 @@
 */
 function video_popup_form(){
     $content = '';
-    $content .= '<div id="popup-container">';
-    $content .= '<div class="box slide-top" id="popup-box">';
-    $content .= '<div class="popupCloseButton" id="closeBtn">&#10008;</div>';
-    $content .= '<div class="video-teaser">';
-    $content .= '<video id="video-container" width="400" height="340" muted loop autoplay controls>';
-    $content .= '<source src=" '.plugins_url("video-popup-form/video/intro_pop.mp4").'" type="video/mp4">';
-    $content .= '</video>';
-    $content .= '</div>';
-    $content .= '<div id="promotion-header">';
-    $content .= '<h4 id="promotion-header-title">Se vores nye miniserie #UNG<span id="promotion-subheader-title"> Få et indblik i livet som studerende på TH-Langs HF</span></h4>';
-    $content .= '</div>';
-    $content .= '<form action="#">';
-    $content .= '<div class="button-holder">';
-    $content .= '<div class="button-element">'; 
-    $content .= '<button type="button" class="btn btn-primary btn-lg active" role="button" id="newUrl">Læs mere om TH. Langs</button>';
-    $content .= '</div>';
-    $content .= '</div>';
-    $content .= '</form>';
-    $content .= '</div>';
-    $content .= '</div>';
+    
     return $content;
 }
 
